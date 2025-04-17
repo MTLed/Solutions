@@ -1,0 +1,116 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+/* Emma CSS */
+.ui.form {
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+}
+.column {
+  padding:5px !important;
+}
+#EmmaSubmit {background-color: #22a8c9; color: #fff;}
+.ui.form h3, .ui.form p {color: #fff;}
+
+.ui.modal { 
+  background: transparent url("../../../uploads/2014/07/Luke-Web-Banner-copy.jpg") no-repeat center center;
+  border-radius:0;
+  color:#000;
+  display:none; 
+  padding:20px;
+  min-width:400px;
+  min-height: 220px;
+  text-align: center;
+  object-fit: fill;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.ui.modal::before {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.ui.modal form {z-index: 20;}
+.dimmer {
+  opacity: 0.2;
+}
+.b-close {
+  cursor: pointer;
+  font-family: verdana;
+  font-size: 1em;
+  font-style: normal;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  z-index: 999;
+}
+  /* placeholder */
+    ::-webkit-input-placeholder {
+       text-align: left;
+       color: #808080!important;
+       font-size: 1em !important;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       text-align: left;
+       color: #808080!important;
+       font-size: 1em !important;
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       text-align: left; 
+       color: #808080!important;
+       font-size: 1em !important;
+    }
+
+    :-ms-input-placeholder {  
+       text-align: left; 
+       color: #808080!important;
+       font-size: 1em !important;
+    }
+    
+.ui.modal.lb2 { 
+  background: transparent url("../../../uploads/2015/09/Milan_Expo-2.jpg") no-repeat center center;
+  border-radius:0;
+  color:#000;
+  display:none; 
+  padding:20px;
+  min-width:400px;
+  min-height: 220px;
+  text-align: center;
+  object-fit: fill;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.ui.checkbox { text-align: left; float: left; width: 49%; padding-top: 5px; }
+.ui.checkbox label { color: #fff !important; }
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
